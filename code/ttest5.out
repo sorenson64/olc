@@ -1,0 +1,9 @@
+n=2009543914
+Failure count=512
+Primes found=19087828
+Number of prime tests performed=36749267 success rate=51.9407
+
+Final n=2010000383
+Failure count=537
+Primes found=20000766
+Number of prime tests performed=38507992 success rate=51.9393

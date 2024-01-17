@@ -1,0 +1,21 @@
+n=2002390000
+Failure count=126
+Primes found=4780000
+Number of prime tests performed=10359403 success rate=46.1417
+n=2004780000
+Failure count=255
+Primes found=9560000
+Number of prime tests performed=20717342 success rate=46.1449
+n=2007170000
+Failure count=375
+Primes found=14340000
+Number of prime tests performed=31072715 success rate=46.1498
+n=2009541612
+Failure count=512
+Primes found=19083224
+Number of prime tests performed=41359273 success rate=46.1401
+
+Final n=2010000207
+Failure count=537
+Primes found=20000414
+Number of prime tests performed=43347914 success rate=46.1393

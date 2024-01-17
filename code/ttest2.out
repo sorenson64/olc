@@ -1,0 +1,37 @@
+n=2001190000
+Failure count=66
+Primes found=2380000
+Number of prime tests performed=5502027 success rate=43.2568
+n=2002380000
+Failure count=126
+Primes found=4760000
+Number of prime tests performed=11005557 success rate=43.2509
+n=2003570000
+Failure count=184
+Primes found=7140000
+Number of prime tests performed=16505305 success rate=43.2588
+n=2004760000
+Failure count=254
+Primes found=9520000
+Number of prime tests performed=22010436 success rate=43.2522
+n=2005950000
+Failure count=315
+Primes found=11900000
+Number of prime tests performed=27512319 success rate=43.2534
+n=2007140000
+Failure count=371
+Primes found=14280000
+Number of prime tests performed=33012822 success rate=43.2559
+n=2008321871
+Failure count=439
+Primes found=16643742
+Number of prime tests performed=38483002 success rate=43.2496
+n=2009501871
+Failure count=508
+Primes found=19003742
+Number of prime tests performed=43942959 success rate=43.2464
+
+Final n=2010000067
+Failure count=537
+Primes found=20000134
+Number of prime tests performed=46247337 success rate=43.246

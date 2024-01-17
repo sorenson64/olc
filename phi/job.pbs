@@ -1,0 +1,37 @@
+#!/bin/bash
+# filename: job.pbs
+
+#PBS -l nodes=4;ppn=64
+#PBS -j oe
+#PBS -N opperman
+#PBS
+
+MPIEXE=/usr/bin/mpiexec
+MPIRUN=/usr/bin/mpirun
+PBS_NODEFILE=/home/jsorenso/research/oc/phi/hostfile
+EXEFILE=/home/jsorenso/research/oc/phi/parmain
+
+WORKINGDIR=/home/jsorenso/research/oc/phi
+
+echo ""
+echo "Location of hostfile"
+ls -l $PBS_NODEFILE
+
+echo "Contents"
+cat $PBS_NODEFILE
+
+NN=256
+
+echo "Number of nodes: $NN"
+echo ""
+echo "Job master:"
+hostname
+date
+
+echo ""
+echo "actual mpirun command:"
+echo "$MPIEXEC -hostfile $PBS_NODEFILE -np $NN $EXEFILE"
+
+cd $WORKINGDIR
+$MPIEXEC -hostfile $PBS_NODEFILE -np $NN $EXEFILE
+date
