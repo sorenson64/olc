@@ -10,3 +10,9 @@ Make sure you have an EMPTY folder called "data" in the folder you run the code 
 The program will benchmark data into files called id.out, where id is replaced by the 3-digit id number of each process.
 
 If you want to change the range of the computation, you must edit the main loop in "parmain.cpp".
+
+DATA FILE:
+
+In each of the bigdawg and phi folders are the various data files we generated for our computation up to 7x10^13.  
+To understand what the numbers in each file mean, we suggest you look at the pairmain.cpp files to see what variables 
+are periodically written to the log file for each processor.
